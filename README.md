@@ -11,12 +11,13 @@ Modern dark-themed portfolio site for **Oluwatamilore Adedeji-Ibraheem**.
 ## Project Structure
 
 ```text
-Portfolio project/
+.
 ├── index.html
 ├── styles.css
 ├── script.js
+├── README.md
 └── assets/
-    └── resume.pdf
+   └── resume.pdf
 ```
 
 ## Run Locally
@@ -24,7 +25,6 @@ Portfolio project/
 From the repo root:
 
 ```bash
-cd "Portfolio project"
 python3 -m http.server 8080
 ```
 
@@ -42,7 +42,7 @@ Then open:
 
 When importing the GitHub repo into Vercel:
 
-- **Root Directory**: `Portfolio project`
+- **Root Directory**: `.`
 - **Framework Preset**: `Other`
 - **Build Command**: leave empty
 - **Output Directory**: `.`
